@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM rust:alpine
+FROM rust
 WORKDIR /app
 
 COPY --link . .
